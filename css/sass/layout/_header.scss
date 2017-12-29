@@ -1,0 +1,68 @@
+.site-header {
+  font-family: 'Open Sans-Regular';
+  width: 100%;
+  .site-branding {
+    text-align: center;
+    background-image: url(../images/header-watercolor-right.png), url(../images/header-watercolor-left.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: right top,left top ;
+    height: 223px;
+  }  
+}
+.site-header .site-branding a img { 
+  margin-top: 32px;
+}
+.site-header .main-navigation ul {
+  color: #333333;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  background: #FFF;
+  border-top-color: #f0f0f0;
+  border-top-style: double;
+  border-top-width: 3px;
+  border-bottom-color: #f0f0f0;
+  border-bottom-style: double;
+  border-bottom-width: 3px;
+  line-height: 3.5; 
+  li {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 40px;
+    ::after {
+      content: '/';
+      color: #f0f0f0;
+      top: 6px;
+      position: absolute;
+      right: 13px;
+      font-weight: 700;
+      font-size: 13px;
+    }  
+  }    
+}
+.site-header .main-navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Open Sans-Regular';
+}
+.menu-main-menu-container li {
+  position: relative;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  li {
+    display: none;
+    background-color: #fff;
+    width: 100px;
+    ::hover{
+      display:block;
+    }
+  }  
+}
+
+

@@ -1,0 +1,29 @@
+.banner1 {
+  position: relative;
+}
+.banner1 img{
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+.banner1::before {
+  content: '';
+  background-image: url(../images/banner-overlay-top-tile.png);
+  height: 50px;
+  left: 0;
+  right: 0;
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: 1;
+}
+.banner1::after {
+  content: '';
+  background-image: url(../images/banner-bottom.png);
+  height: 117px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: 1;
+}
