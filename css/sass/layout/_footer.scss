@@ -1,0 +1,210 @@
+.site-footer {
+  background-image: url(../images/footer/footer-top-overlay.png),url(../images/footer/footer-bottom-right.png),url(../images/footer/footer-bottom-bg.jpg);
+  background-repeat: repeat-x,no-repeat,repeat-x;
+  background-position: left top,right bottom,left top;
+  background-size: 3000px 48px,1500px 422px,auto 100%;
+  background-clip: border-box,border-box,padding-box;
+  background-origin: border-box,border-box,padding-box;
+  border-top: 10px solid transparent;
+  padding: 60px 0 20px;
+  display: block;
+  margin: 0 -10px;
+  clear: both;
+  width: 100%;
+  .footer_widgets {
+    padding: 0 0 40px;
+    .widget-footer {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      max-width: 1140px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 10px;
+    }
+  }
+}
+.site-footer::before {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+.section-about-footer {
+  width: 2%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 45px 0 0;
+  margin-bottom:  20px;
+  .widget-title-wrap {
+    h3 {
+      color: #666666;
+      font-family: 'Zeyada';
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: left;
+      margin: 0;
+      padding: 0
+    }  
+  }
+}
+.textwidget {
+  p {
+    font-family: 'Open Sans-Regular';
+    font-size: 16px;
+    margin:0 0 10px;
+    line-height: 1.8em;
+  }
+}
+.section-link-footer{
+  width: 2%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 45px 0 0;
+  margin-bottom:  20px;
+  .widget-title-wrap{
+    h3 {
+      color: #666666;
+      font-family: 'Zeyada';
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: left;
+      margin: 0;
+      padding: 0
+    }
+  }
+}
+.menu {
+  margin-top: -13px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.8em;
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    a {
+      text-decoration: none;
+      padding: 12px 5px;
+      display: block;
+      color: #333;
+    } 
+    a::before {
+      content: '>';
+      left: 0;
+      padding-right: 9px;
+      top: 3px;
+      font-size: .8em;
+    }
+  }
+}
+.section-newsletter-footer {
+  width: 2%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 45px 0 0;
+  margin-bottom:  20px;
+  .widget-title-wrap {
+    h3 {
+      color: #666666;
+      font-family: 'Zeyada';
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: left;
+      margin: 0;
+      padding: 0
+    }
+  }
+}
+.textwidget {
+  display: block;
+  .wpcf7 {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8em;
+    .wpcf7-form {
+      margin-top: 5px;
+      p {
+        margin: 0 0 10px
+      }
+    }
+  }
+}
+.wpcf7-form-control {
+  background: #FFF;
+  border: 1px solid #f0f0f0;
+  color: #000;
+  display: inline-block;
+  font-size: 1em;
+  max-width: 100%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding: 12px 9px;
+  line-height: normal;
+  font: inherit;
+  margin: 0;
+}
+
+.wpcf7-form-control-submit {
+  color: #000;
+  cursor: pointer;
+  max-width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Zeyada';
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  padding-left: 39px;
+  padding-right: 39px;
+  text-transform: none;
+  background-color: #fff;
+  width: 144px;
+  height: 49px;
+}
+input {
+  border: white;
+  width: 100%;
+}
+.section-contact-footer {
+  width: 2%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 45px 0 0;
+  margin-bottom:  20px;
+  .widget-title-wrap {
+    h3 {
+      color: #666666;
+      font-family: 'Zeyada';
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+.icon {
+  margin-top: -13px ;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin: 4px;
+    padding: 0;
+    a {
+      text-decoration: none;
+      padding: 12px 5px;
+      display: block;
+    }
+  }
+}
+.icon i {
+  color: #333;
+} 

@@ -1,0 +1,9 @@
+button {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: map-get($color, white);
+  border: 2px solid map-get($color, white);
+  @include border-radius(5px);
+  padding: 10px 25px; 
+  font-size: 20px;
+} 
